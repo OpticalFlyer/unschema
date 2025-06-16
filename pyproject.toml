@@ -1,0 +1,14 @@
+[project]
+name = "unschema"
+version = "1.0.0"
+description = "Convert KML with SchemaData to plain KML with Data/value"
+authors = [{ name = "Chris Bomar" }]
+dependencies = []
+requires-python = ">=3.7"
+
+[project.scripts]
+unschema = "unschema.__main__:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
